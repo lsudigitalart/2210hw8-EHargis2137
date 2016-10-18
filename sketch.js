@@ -45,6 +45,10 @@ function setup(){
 function draw(){}
 
 function mouseReleased(){
+  CharGen();
+}
+
+function CharGen(){
   background(40);
   a = random(0,3);
   b = random(0,3);
